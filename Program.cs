@@ -13,7 +13,7 @@ namespace Inheritance
         static void Main(string[] args)
         {          
             AppConfig app = new AppConfig();
-            Reports_first un = new Reports_first(app.GetConnectionPrefix());
+            Reports_First un = new Reports_First(app.GetConnectionPrefix());
             // to run the report
             un.RunReports();                     
         }
